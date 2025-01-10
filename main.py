@@ -1,3 +1,10 @@
+
+
+
+
+
+
+
 # O(1)-константная сложность
 def getElement(arr, index):
     return arr[index]
@@ -5,6 +12,15 @@ def getElement(arr, index):
 arr = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 
 print(getElement(arr, 4))   # выведет 5
+
+
+
+
+
+
+
+
+
 
 
 # O(n) - линейная сложность алгоритма
@@ -18,6 +34,12 @@ arr = [10, 20, 30, 40, 50]
 
 print(line_search(arr, 30)) # выведет 2
 print(line_search(arr, 60)) # выведет -1
+
+
+
+
+
+
 
 
 # O(log n) = логарифмическая сложность алгоритма
